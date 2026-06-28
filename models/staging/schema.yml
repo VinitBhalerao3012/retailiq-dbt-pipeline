@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: stg_retail__invoices
+    description: "Cleaned and validated retail invoice transactions"
+    columns:
+      - name: invoice_id
+        description: "Unique invoice identifier"
+        tests:
+          - not_null
+      - name: customer_id
+        description: "Customer identifier"
+        tests:
+          - not_null
+      - name: quantity
+        description: "Quantity of items purchased"
+        tests:
+          - not_null
+      - name: unit_price
+        description: "Price per unit"
+        tests:
+          - not_null
+      - name: line_revenue
+        description: "Total revenue for line item"
+        tests:
+          - not_null
+
+  - name: stg_retail__customers
+    description: "Unique customers with their country"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - not_null
+          - unique
+      - name: country
+        description: "Customer country"
+        tests:
+          - not_null

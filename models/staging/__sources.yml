@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: retailiq
+    database: neat-responder-426714-d8
+    schema: retailiq
+    tables:
+      - name: raw_retail_2009_2010
+        description: "Online retail transactions 2009-2010"
+      - name: raw_retail_2010_2011
+        description: "Online retail transactions 2010-2011"
