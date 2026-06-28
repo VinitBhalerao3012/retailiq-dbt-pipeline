@@ -128,3 +128,14 @@ dbt test     # Run 8 data quality tests
 - Portfolio: [vinitbportfolio.netlify.app](https://vinitbportfolio.netlify.app)
 - GitHub: [github.com/VinitBhalerao3012](https://github.com/VinitBhalerao3012)
 - LinkedIn: [linkedin.com/in/bhalerao-vinit3013](https://linkedin.com/in/bhalerao-vinit3013)
+
+## 📸 Dashboard Screenshots
+
+### Page 1 — Sales Performance
+![Sales Performance](RIQ1.png)
+
+### Page 2 — Customer Analytics
+![Customer Analytics](RIQ2.png)
+
+### Page 3 — Product Performance
+![Product Performance](RIQ3.png)
